@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--
+    Copyright (C) 2012 Jukka Hyytiälä, <http://pingo.viuhka.fi/>
+    
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>multisimplestyle_7</title>
+        <link rel="stylesheet" href="css/default.css" media="not print">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Tangerine|Yanone+Kaffeesatz" media="screen">
+    </head>
+    <body>
+        <header>
+            <!-- Use span elements for default styling. -->
+            <a href="#"><span>multi</span>simplestyle<span>_7</span></a>
+
+            <div>Cool slogan goes here!</div>
+        </header>
+        <nav>
+            <!-- Put class="current" in the li tags for the selected page in each menu - to highlight which page you're on. -->
+
+            <!-- The first menu is a main menu for other pages. -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="#">Examples</a></li>
+                <li><a href="lorem-ipsum.html">Lorem Ipsum</a></li>
+            </ul>
+
+            <!-- The second menu is a language menu for translations of the current page. -->
+            <!--<ul id="language">
+                <li class="current"><a href="#">in English</a></li>
+                <li><a href="etusivu.html" hreflang="fi">suomeksi</a></li>
+            </ul>-->
+        </nav>
+
+        <div>
+            <!-- Remove if you do not use a sidebar. -->
+            <div id="sidebar">
+                <!-- The paper clip appears just before each sidebar block. -->
+                <img src="css/images/paperclip.png">
+                <div>
+                    <h3>Latest News</h3>
+                    <div>
+                        <h4>Some news</h4>
+                        <span class="date">5st July 2012</span>
+                        <p>Some introductory text about this item.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div>
+                        <h4>Some other news</h4>
+                        <span class="date">2st July 2012</span>
+                        <p>Some introductory text about this item.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+
+                <img src="css/images/paperclip.png">
+                <div>
+                    <h3>Newsletter</h3>
+                    <span class="date">Form example</span>
+                    <p>Some introductory text about this form.</p>
+                    <form method="post" action="#">
+                        <input name="email" type="email" required="required" placeholder="your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                
+                <img src="css/images/paperclip.png">
+                <div>
+                    <h3>Latest News</h3>
+                    <div>
+                        <h4>Some news</h4>
+                        <span class="date">5st July 2012</span>
+                        <p>Some introductory text about this item.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div>
+                        <h4>Some other news</h4>
+                        <span class="date">2st July 2012</span>
+                        <p>Some introductory text about this item.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <header>
+                    <h1>Examples</h1>
+                    <p>This page contains examples of some the styled elements available as part of this design. You can use this page for reference, whilst you build your website, but do not forget that there is a designer and developer guide on Github.</p>
+                </header>
+
+                <section>
+                    <header>
+                        <h2>Headings</h2>
+                        <p>These are the different heading formats:</p>
+                    </header>
+
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </section>
+
+                <section>
+                    <header>
+                        <h2>Text</h2>
+                        <p>The following examples show how the text (within '&lt;p&gt;&lt;/p&gt;' tags) will appear:</p>
+                    </header>
+                    <p>
+                        <strong>This is an example of bold text</strong>
+                    </p>
+                    <p>
+                        <i>This is an example of italic text</i>
+                    </p>
+                    <p>
+                        <a href="#">This is a hyperlink</a><br>
+                        <a href="etusivu.html" class="lang" hreflang="fi">and this one is to foreign language</a>
+                    </p>
+                    <p>
+                        This paragraph<br>
+                        has multiple lines.
+                    </p>
+                </section>
+
+                <section>
+                    <header>
+                        <h2>Lists</h2>
+                        <p>This is an unordered list:</p>
+                    </header>
+
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+                    <p>This is an ordered list:</p>
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <header>
+                        <h2>Images</h2>
+                        <p>Images can be placed on the left, in the center or on the right.
+                        In addition, they may have a photo frame:</p>
+                    </header>
+
+                    <img src="images/graphic.png" alt="example graphic" class="left with-photo-frame">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                    <img src="images/graphic.png" alt="example graphic" class="center">
+                    <img src="images/graphic.png" alt="example graphic" class="right">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                </section>
+
+                <section>
+                    <header>
+                        <h2>Tables</h2>
+                        <p>Tables should be used to display data and not used for laying out your website:</p>
+                    </header>
+
+                    <table>
+                        <thead>
+                            <tr><th>Item</th><th>Description</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Item 1</td><td>Description of Item 1</td></tr>
+                            <tr><td>Item 2</td><td>Description of Item 2</td></tr>
+                            <tr><td>Item 3</td><td>Description of Item 3</td></tr>
+                            <tr><td>Item 4</td><td>Description of Item 4</td></tr>
+                        </tbody>
+                        <tfoot>
+                            <tr><td>Totally</td><td>Description of totally</td></tr>
+                        </tfoot>
+                    </table>
+                </section>
+
+                <section>
+                    <header>
+                        <h2>Form Elements - Payment form example</h2>
+                    </header>
+
+                    <form action="#">
+                        <fieldset>
+                            <legend>Step 1: Your details</legend>
+                            <label for="name">
+                                <span>Name</span>
+                                <input id="name" name="name" type="text" placeholder="First and last name" required>
+                            </label>
+                            <label for="email">
+                                <span>Email</span>
+                                <input id="email" name="email" type="email" placeholder="example@domain.com" required>
+                            </label>
+                            <label for="phone">
+                                <span>Phone</span>
+                                <input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required>
+                            </label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Step 2: Delivery address</legend>
+                            <label for="address">
+                                <span>Address</span>
+                                <textarea id="address" name="address" rows="5" required></textarea>
+                            </label>
+                            <label for="postcode">
+                                <span>Post code</span>
+                                <input id="postcode" name="postcode" type="text" required>
+                            </label>
+                            <label for="country">
+                                <span>Country</span>
+                                <input id="country" name="country" type="text" required>
+                            </label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Step 3: Card details</legend>
+                            <div>
+                                <fieldset>
+                                    <legend>Card type</legend>
+                                    <label for="visa">
+                                        <input id="visa" name="cardtype" type="radio" value="visa">
+                                        <span>VISA</span>
+                                    </label>
+                                    <label for="amex">
+                                        <input id="amex" name="cardtype" type="radio" value="amex">
+                                        <span>AmEx</span>
+                                    </label>
+                                    <label for="mastercard">
+                                        <input id="mastercard" name="cardtype" type="radio" value="mastercard">
+                                        <span>Mastercard</span>
+                                    </label>
+                                </fieldset>
+                            </div>
+                            
+                            <label for="cardnumber">
+                                <span>Card number</span>
+                                <input id="cardnumber" name="cardnumber" type="number" required>
+                            </label>
+                            <label for="secure">
+                                <span>Security code</span>
+                                <input id="secure" name="secure" type="number" required>
+                            </label>
+                            <label for="namecard">
+                                <span>Name on card</span>
+                                <input id="namecard" name="namecard" type="text" placeholder="Exact name as on the card" required>
+                            </label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <button type="submit">Buy it!</button>
+                        </fieldset>
+                    </form>
+                </section>
+
+                <!-- Remove if you do not use a page footer. -->
+                <footer>
+                    <div class="content-hr">
+                        <span>! Please, notice !</span>
+                        <hr>
+                    </div>
+                    <p>This document does not contain all of examples. There is a better guide on Github.</p>
+                </footer>
+            </section>
+        </div>
+
+        <footer>
+            Copyright &copy; 2012 your name here |
+            <a href="https://github.com/jukkah/multisimplestyle-7">multisimplestyle_7</a>
+        </footer>
+    </body>
+</html>

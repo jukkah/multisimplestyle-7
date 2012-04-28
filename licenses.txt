@@ -1,0 +1,27 @@
+- simplestyle_7
+
+  (C) 2011 HTML5webtemplates.co.uk. All Rights Reserved.
+  <http://www.html5webtemplates.co.uk/>
+  Licensed under a Creative Commons Attribution 3.0 License.
+  <http://creativecommons.org/licenses/by/3.0/>
+
+- Locale Alternate
+
+  (C) 2011 Yusuke Kamiyamane. All rights reserved.
+  <http://p.yusukekamiyamane.com/>
+  Licensed under a Creative Commons Attribution 3.0 License.
+  <http://creativecommons.org/licenses/by/3.0/>
+
+- Tangerine
+
+  (C) Toshi Omagari.
+  <http://tosche.net/>
+  Licensed under a SIL Open Font License, 1.1.
+  <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL>
+
+- Yanone Kaffeesatz
+
+  (C) Yanone.
+  <http://www.yanone.de/>
+  Licensed under a SIL Open Font License, 1.1.
+  <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL>

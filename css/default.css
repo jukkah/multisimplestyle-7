@@ -1,0 +1,454 @@
+/*
+ * Copyright (C) 2012  Jukka Hyytiälä
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *  
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*-sidebar--------------------------------------------------------------------*/
+#sidebar .date {
+    display: block;
+    font: italic 95% arial, sans-serif;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+#sidebar > img {
+    float: left;
+    position: relative;
+    z-index: 0;
+    vertical-align: middle;
+    margin: -27px 0 -60px -24px;
+}
+
+#sidebar > div > div:not(:last-of-type) {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 10px;
+}
+
+#sidebar > div:last-of-type {
+    margin-bottom: 0;
+}
+
+#sidebar > div {
+    float: right;
+    width: 200px;
+    margin: 0 0 27px 0;
+    background: #FBFBFB;
+    border: 1px solid #EEE;
+    padding: 0 15px 15px 15px;
+}
+
+#sidebar form :not(:last-child) {
+    margin-bottom: 5px;
+    width: 94%;
+}
+
+#sidebar form {
+    border: none;
+    counter-reset: none;
+    padding: 0;
+}
+
+#sidebar h3 {
+    margin: 10px 15px;
+}
+
+#sidebar h4 {
+    margin-top: 0;
+}
+
+#sidebar p {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    float: right;
+    width: 231px;
+    padding: 0 0 15px 15px;
+    border-bottom: 1px dashed #E7E7E7;
+    border-left: 1px dashed #E7E7E7;
+    margin: 0 0 15px 15px;
+    background-color: inherit;
+}
+/*-content-hr-----------------------------------------------------------------*/
+.content-hr *:not(hr) {
+    position: absolute;
+    top: -17.5px;
+    left: 21px;
+    font-size: 200%;
+    color: #777;
+    background-color: white;
+    border: 1px solid #E7E7E7;
+    padding: 2px 5px 2px 5px;
+}
+
+.content-hr hr {
+    border-top: 4px double #E7E7E7;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    margin: 25px 0 25px 0;
+}
+
+.content-hr {
+    display: block;
+    height: auto;
+    position: relative;
+}
+/*-positionings---------------------------------------------------------------*/
+.left {
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.right {
+    float: right; 
+    width: auto;
+    margin-left: 10px;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+/*-photo-frame-image----------------------------------------------------------*/
+img.with-photo-frame {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px #CCC solid;
+    box-shadow: 1px 1px 5px #999;
+}
+/*-language-link--------------------------------------------------------------*/
+a.lang {
+    background-image: url(images/locale-alternate.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 18px;
+}
+/*-navigation-----------------------------------------------------------------*/
+nav ul li a:hover {
+    color: #F14E23;
+    text-decoration: none;
+}
+
+nav ul li.current a { 
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    color: #F14E23;
+    height: 20px;
+    padding: 6px 22px 15px 22px;
+}
+
+nav ul li a {
+    font: normal 170% 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #444;
+    display: block; 
+    float: left; 
+    height: 20px;
+    padding: 7px 23px 15px 23px;
+    text-align: center;
+} 
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 2px 0 0 0;
+    background: transparent;
+}
+
+nav ul#language {
+    float: right
+}
+
+nav ul {
+    float: left;
+    margin: 2px 0px 0px 0px;
+}
+
+nav {
+    height: auto;
+    min-height: 46px;
+    width: 100%;
+    margin: 0px auto -1px auto;
+    float: right;
+}
+/*-tables---------------------------------------------------------------------*/
+th {
+    background: #F5F5F5;
+    color: #111;
+    padding: 7px 4px;
+}
+
+td {
+    color: #111;
+    padding: 7px 4px;
+    text-align: left;
+}
+
+tfoot {
+    font-style: italic;
+    background-color: #F8F8F8;
+}
+
+table {
+    margin: 10px 0 30px 0;
+    border-spacing: 0;
+    text-align: left;
+}
+/*-forms----------------------------------------------------------------------*/
+button {
+    width: auto;
+    cursor: pointer;
+    color: #35BDF5;
+    border: 1px solid #DDD;
+    padding: 5px 15px;
+    background: white;
+    font: normal 140% 'Yanone Kaffeesatz', sans-serif;
+}
+
+input:not([type=radio]):focus,
+textarea:focus,
+select:focus {
+    background: #eaeaea;
+}
+
+input:not([type=radio]),
+textarea,
+select {
+    border: 1px solid #E7E7E7;
+    border-radius: 3px;
+    font-style: italic;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+}
+
+fieldset fieldset label span {
+    width: auto;
+    float: none;
+}
+
+label span {
+    float: left;
+    font-size: 13px;
+    width: 110px;
+}
+
+fieldset fieldset label {
+    border: none;
+    float: left;
+}
+
+label,
+fieldset div{
+    background: #FBFBFB;
+    border: 1px dotted #E7E7E7;
+    line-height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 2px;   
+    display: block;
+}
+
+fieldset fieldset legend {
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 0;
+    display: block;
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+fieldset:last-of-type {
+    margin-bottom: 0;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+form {
+    border: 1px dashed #E7E7E7; 
+    counter-reset: fieldsets;
+    padding: 20px;
+}
+/*-headings-------------------------------------------------------------------*/
+h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child  {
+    margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    font: normal 250% 'Yanone Kaffeesatz', arial, sans-serif;
+    color: #444;
+    margin: 0 0 20px 0;
+}
+
+h4, h5, h6 {
+    margin: 0px 0 5px 0;
+    font: normal 100% arial, sans-serif;
+    color: #F14E23;
+    line-height: 1em;
+}
+
+h5, h6{
+    font: italic 95% arial, sans-serif;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+h6{ 
+    color: #362C20;
+}
+
+h3 {
+    font-size: 200%;
+    margin: 0 0 9px 0;
+    color: #444;
+}
+
+h2 {
+    font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
+    color: #F14E23;  
+    margin: 0 0 8px 0;
+}
+/*-headers--------------------------------------------------------------------*/
+body > header a:hover * {
+    color: #35BDF5;
+}
+
+body > header a * {
+    color: #35BDF5;
+}
+
+body > header a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+body > header a {
+    margin: 5px 0 15px 17px;
+    font: normal 350% 'Yanone Kaffeesatz', sans-serif;
+    color: #555;
+    float: left;
+    text-decoration: none;
+}
+
+body > header div {
+    float: right; 
+    margin-right: 25px;
+    text-align: right;
+    font: 500% 'Tangerine', serif;
+    color: #111;
+}
+
+body > header {
+    width: 100%;
+    max-width: 950px;
+    min-height: 100px;
+    height: auto;
+    background: transparent;
+}
+
+
+header + p {
+    margin-top: 20px;
+}
+/*-content--------------------------------------------------------------------*/
+body > div:first-of-type section footer p:last-of-type,
+body > div:first-of-type section ul:last-of-type {
+    margin-bottom: 0;
+}
+
+body > div:first-of-type {
+    max-width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #E7E7E7;
+    padding: 25px;
+    clear: both;
+}
+/*-footers--------------------------------------------------------------------*/
+body > footer a:hover {
+    color: #35BDF5;
+    text-decoration: none;
+}
+
+body > footer a {
+    color: #555;
+    text-decoration: none;
+}
+
+body > footer { 
+    clear: both;
+    width: 100%;
+    font: normal 161% 'Yanone Kaffeesatz',  sans-serif;
+    height: 85px;
+    margin: 20px 0 25px 0;
+    text-align: center; 
+    color: #555;
+}
+/*-lists----------------------------------------------------------------------*/
+li { 
+    margin-left: 20px;
+    line-height: 1.7em;
+}
+
+ul, ol { 
+    margin: 20px 0 22px 20px;
+}
+/*-links----------------------------------------------------------------------*/
+a:hover { 
+    text-decoration: underline;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #35BDF5;
+}
+/*----------------------------------------------------------------------------*/
+p {
+    margin: 20px 0 20px 0;
+    font-size: 107%;
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+body {
+    width: auto; 
+    max-width: 950px;
+    margin: 20px auto;
+}
+
+html {
+    font: normal .80em 'trebuchet ms', arial, sans-serif;
+    background: #F7F7F7 url(images/pattern.png) fixed;
+    color: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
