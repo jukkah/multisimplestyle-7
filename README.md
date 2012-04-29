@@ -1,5 +1,6 @@
 multisimplestyle-7
 ==================
+Simple and multilingual web template
 
 This simple template is a multilingual web template. It has an easy and flexible
 way to combine the translated pages together. There are two menus, first for
