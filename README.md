@@ -5,7 +5,7 @@ This simple template is a multilingual web template. It has an easy and flexible
 way to combine the translated pages together. There are two menus, first for
 navigating pages and second for navigating translations of current page.
 
-See [online demo](http://pingo.viuhka.fi/assets/files/multisimplestyle-7/) and
+See [online demo](http://pingo.viuhka.fi/multisimplestyle-7.html) and
 [designer and developer guide](https://github.com/jukkah/multisimplestyle-7/wiki/Designer-and-developer-guide).
 
 Browser support
