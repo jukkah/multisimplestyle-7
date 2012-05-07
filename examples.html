@@ -19,7 +19,8 @@
     <head>
         <meta charset="utf-8">
         <title>multisimplestyle-7</title>
-        <link rel="stylesheet" href="css/default.css" media="not print">
+        <link rel="stylesheet" href="css/screen.css" media="screen">
+        <link rel="stylesheet" href="css/print.css" media="print">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Tangerine|Yanone+Kaffeesatz" media="screen">
     </head>
     <body>
@@ -48,7 +49,7 @@
 
         <div>
             <!-- Remove if you do not use a sidebar. -->
-            <div id="sidebar">
+            <div id="sidebar" class="no-print">
                 <!-- The paper clip appears just before each sidebar block. -->
                 <img src="css/images/paperclip.png">
                 <div>
@@ -128,7 +129,7 @@
                         <i>This is an example of italic text</i>
                     </p>
                     <p>
-                        <a href="#">This is a hyperlink</a><br>
+                        <a href="http://www.example.com/">This is a hyperlink</a><br>
                         <a href="etusivu.html" class="lang" hreflang="fi">and this one is to foreign language</a>
                     </p>
                     <p>
@@ -161,8 +162,7 @@
                 <section>
                     <header>
                         <h2>Images</h2>
-                        <p>Images can be placed on the left, in the center or on the right.
-                        In addition, they may have a photo frame:</p>
+                        <p>Images can be placed on the left, in the center or on the right. In addition, they may have a photo frame</p>
                     </header>
 
                     <img src="images/graphic.png" alt="example graphic" class="left with-photo-frame">
@@ -267,7 +267,7 @@
                             </label>
                         </fieldset>
                         
-                        <fieldset>
+                        <fieldset class="no-print">
                             <button type="submit">Buy it!</button>
                         </fieldset>
                     </form>
@@ -286,6 +286,7 @@
 
         <footer>
             Copyright © 2012 your name here |
+            <a href="#">URL to the main page here</a> |
             <a href="https://github.com/jukkah/multisimplestyle-7">multisimplestyle-7</a>
         </footer>
     </body>

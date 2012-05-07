@@ -17,7 +17,7 @@ The template has tested with the following browsers:
 * Firefox 11.0
 * Chrome 18.0
 * Safari 5.1
-* Opera 11.62
+* Opera 12.0
 
 Utilized works
 --------------
@@ -27,6 +27,5 @@ Utilized works
 
 TODO
 ----
-* print css
 * small screen css
 * fully supported HTML5 in styles

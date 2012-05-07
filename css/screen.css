@@ -22,7 +22,6 @@
     color: #888;
     margin-bottom: 15px;
 }
-
 #sidebar > img {
     float: left;
     position: relative;
@@ -30,17 +29,14 @@
     vertical-align: middle;
     margin: -27px 0 -60px -24px;
 }
-
 #sidebar > div > div:not(:last-of-type) {
     padding: 0 0 10px 0;
     border-bottom: 1px solid #E7E7E7;
     margin-bottom: 10px;
 }
-
 #sidebar > div:last-of-type {
     margin-bottom: 0;
 }
-
 #sidebar > div {
     float: right;
     width: 200px;
@@ -49,31 +45,25 @@
     border: 1px solid #EEE;
     padding: 0 15px 15px 15px;
 }
-
 #sidebar form :not(:last-child) {
     margin-bottom: 5px;
     width: 94%;
 }
-
 #sidebar form {
     border: none;
     counter-reset: none;
     padding: 0;
 }
-
 #sidebar h3 {
     margin: 10px 15px;
 }
-
 #sidebar h4 {
     margin-top: 0;
 }
-
 #sidebar p {
     margin: 0;
     padding: 0;
 }
-
 #sidebar {
     float: right;
     width: 231px;
@@ -84,7 +74,7 @@
     background-color: inherit;
 }
 /*-content-hr-----------------------------------------------------------------*/
-.content-hr *:not(hr) {
+.content-hr :not(hr) {
     position: absolute;
     top: -17.5px;
     left: 21px;
@@ -94,7 +84,6 @@
     border: 1px solid #E7E7E7;
     padding: 2px 5px 2px 5px;
 }
-
 .content-hr hr {
     border-top: 4px double #E7E7E7;
     border-right: 0;
@@ -102,7 +91,6 @@
     border-bottom: 0;
     margin: 25px 0 25px 0;
 }
-
 .content-hr {
     display: block;
     height: auto;
@@ -114,13 +102,11 @@
     width: auto;
     margin-right: 10px;
 }
-
 .right {
     float: right; 
     width: auto;
     margin-left: 10px;
 }
-
 .center {
     display: block;
     text-align: center;
@@ -145,7 +131,6 @@ nav ul li a:hover {
     color: #F14E23;
     text-decoration: none;
 }
-
 nav ul li.current a { 
     background: #fff;
     border: 1px solid #ddd;
@@ -154,7 +139,6 @@ nav ul li.current a {
     height: 20px;
     padding: 6px 22px 15px 22px;
 }
-
 nav ul li a {
     font: normal 170% 'Yanone Kaffeesatz', sans-serif;
     text-decoration: none;
@@ -165,23 +149,19 @@ nav ul li a {
     padding: 7px 23px 15px 23px;
     text-align: center;
 } 
-
 nav ul li {
     float: left;
     list-style: none;
     margin: 2px 0 0 0;
     background: transparent;
 }
-
 nav ul#language {
     float: right
 }
-
 nav ul {
     float: left;
     margin: 2px 0px 0px 0px;
 }
-
 nav {
     height: auto;
     min-height: 46px;
@@ -195,18 +175,15 @@ th {
     color: #111;
     padding: 7px 4px;
 }
-
 td {
     color: #111;
     padding: 7px 4px;
     text-align: left;
 }
-
 tfoot {
     font-style: italic;
     background-color: #F8F8F8;
 }
-
 table {
     margin: 10px 0 30px 0;
     border-spacing: 0;
@@ -228,7 +205,6 @@ textarea:focus,
 select:focus {
     background: #eaeaea;
 }
-
 input:not([type=radio]),
 textarea,
 select {
@@ -239,23 +215,23 @@ select {
     padding: 5px;
     width: 200px;
 }
+textarea {
+    overflow: auto;
+}
 
 fieldset fieldset label span {
     width: auto;
     float: none;
 }
-
 label span {
     float: left;
     font-size: 13px;
     width: 110px;
 }
-
 fieldset fieldset label {
     border: none;
     float: left;
 }
-
 label,
 fieldset div{
     background: #FBFBFB;
@@ -265,68 +241,56 @@ fieldset div{
     margin-bottom: 2px;   
     display: block;
 }
-
 fieldset fieldset legend {
     font-size: 13px;
     font-weight: normal;
     padding-bottom: 0;
     display: block;
 }
-
 legend {
     font-size: 16px;
     font-weight: bold;
     padding-bottom: 10px;
 }
-
 fieldset:last-of-type {
     margin-bottom: 0;
 }
-
 fieldset {
     border: none;
     margin-bottom: 10px;
 }
-
 form {
     border: 1px dashed #E7E7E7; 
-    counter-reset: fieldsets;
     padding: 20px;
 }
 /*-headings-------------------------------------------------------------------*/
 h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child  {
     margin-top: 20px;
 }
-
 h1, h2, h3, h4, h5, h6  {
     font: normal 250% 'Yanone Kaffeesatz', arial, sans-serif;
     color: #444;
     margin: 0 0 20px 0;
 }
-
 h4, h5, h6 {
     margin: 0px 0 5px 0;
     font: normal 100% arial, sans-serif;
     color: #F14E23;
     line-height: 1em;
 }
-
 h5, h6{
     font: italic 95% arial, sans-serif;
     color: #888;
     margin-bottom: 15px;
 }
-
 h6{ 
     color: #362C20;
 }
-
 h3 {
     font-size: 200%;
     margin: 0 0 9px 0;
     color: #444;
 }
-
 h2 {
     font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
     color: #F14E23;  
@@ -336,16 +300,13 @@ h2 {
 body > header a:hover * {
     color: #35BDF5;
 }
-
 body > header a * {
     color: #35BDF5;
 }
-
 body > header a:hover {
     text-decoration: none;
     color: #555;
 }
-
 body > header a {
     margin: 5px 0 15px 17px;
     font: normal 350% 'Yanone Kaffeesatz', sans-serif;
@@ -353,7 +314,6 @@ body > header a {
     float: left;
     text-decoration: none;
 }
-
 body > header div {
     float: right; 
     margin-right: 25px;
@@ -361,7 +321,6 @@ body > header div {
     font: 500% 'Tangerine', serif;
     color: #111;
 }
-
 body > header {
     width: 100%;
     max-width: 950px;
@@ -369,7 +328,6 @@ body > header {
     height: auto;
     background: transparent;
 }
-
 
 header + p {
     margin-top: 20px;
@@ -379,7 +337,6 @@ body > div:first-of-type section footer p:last-of-type,
 body > div:first-of-type section ul:last-of-type {
     margin-bottom: 0;
 }
-
 body > div:first-of-type {
     max-width: 900px;
     overflow: hidden;
@@ -394,12 +351,10 @@ body > footer a:hover {
     color: #35BDF5;
     text-decoration: none;
 }
-
 body > footer a {
     color: #555;
     text-decoration: none;
 }
-
 body > footer { 
     clear: both;
     width: 100%;
@@ -408,13 +363,13 @@ body > footer {
     margin: 20px 0 25px 0;
     text-align: center; 
     color: #555;
+    display: block;
 }
 /*-lists----------------------------------------------------------------------*/
 li { 
     margin-left: 20px;
     line-height: 1.7em;
 }
-
 ul, ol { 
     margin: 20px 0 22px 20px;
 }
@@ -422,7 +377,6 @@ ul, ol {
 a:hover { 
     text-decoration: underline;
 }
-
 a {
     outline: none;
     text-decoration: none;
@@ -435,19 +389,16 @@ p {
     text-align: justify;
     line-height: 1.7em;
 }
-
 body {
     width: auto; 
     max-width: 950px;
     margin: 20px auto;
 }
-
 html {
     font: normal .80em 'trebuchet ms', arial, sans-serif;
     background: #F7F7F7 url(images/pattern.png) fixed;
     color: #555;
 }
-
 * {
     margin: 0;
     padding: 0;

@@ -1,0 +1,222 @@
+/*
+ * Copyright (C) 2012  Jukka Hyytiälä
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *  
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*-no-print-------------------------------------------------------------------*/
+.no-print {
+    display: none;
+}
+/*-content-hr-----------------------------------------------------------------*/
+.content-hr hr {
+    display: none;
+}
+.content-hr {
+    font-family: sans-serif;
+    border-bottom: black solid 1pt;
+    margin: 20pt 0 20pt 0;
+    text-align: center;
+}
+/*-positionings---------------------------------------------------------------*/
+.left {
+    float: left;
+    width: auto;
+    margin-right: 10pt;
+}
+.right {
+    float: right; 
+    width: auto;
+    margin-left: 10pt;
+}
+.center {
+    display: block;
+    text-align: center;
+    margin: 20pt auto;
+}
+/*-photo-frame-image----------------------------------------------------------*/
+img.with-photo-frame {
+    margin-top: 1ex;
+    border: #333 solid 1pt;
+}
+/*-language-link--------------------------------------------------------------*/
+a.lang::after {
+    content: " <" attr(hreflang) " | " attr(href) ">";
+}
+/*-navigation-----------------------------------------------------------------*/
+nav ul .current a {
+    text-decoration: none;
+}
+nav ul .current {
+    list-style: none;
+}
+nav ul::before {
+    content: " > ";
+}
+nav ul li:not(.current) {
+    display: none;
+}
+nav ul,
+nav li{
+    display: inline;
+    padding-left: 0;
+}
+/*-tables---------------------------------------------------------------------*/
+tfoot {
+    font-style: italic;
+}
+thead, tfoot {
+    border-top: gray 1pt solid;
+    border-bottom: gray 1pt solid;
+}
+table {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+/*-forms----------------------------------------------------------------------*/
+label :not(span) {
+    display: block;
+    width: 100%;
+    border: none;
+}
+label span {
+    display: block;
+    font-size: 60%;
+    margin-left: 3pt;
+}
+legend {
+    font-weight: bold;
+}
+textarea {
+    resize: none;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+/* Hides red shadow in Firefox. */
+:required {
+    box-shadow: none; 
+}
+
+/* TODO: Add code to hide placeholder and spin buttons in Opera. */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input::-webkit-input-placeholder {
+    color: transparent;
+}
+input:-moz-placeholder {
+    color: transparent;
+}
+
+fieldset > label:not(:first-of-type),
+fieldset > div:not(:first-of-type),
+fieldset > label + div,
+fieldset > div + label {
+    border-top-width: 0pt;
+}
+fieldset fieldset {
+    padding: 0;
+}
+fieldset div legend {
+    display: block;
+    font-size: 60%;
+    font-weight: normal;
+    margin-left: 2pt;
+}
+fieldset div label * {
+    display: inline;
+    width: auto;
+}
+fieldset div label {
+    display: inline;
+    width: auto;
+    border: none;
+    margin-left: 5pt;
+    
+}
+fieldset > label,
+fieldset div {
+    display: block;
+    width: 99%;
+    border: black 1pt solid;
+}
+fieldset {
+    border: none;
+    display: block;
+    width: 100%;
+    padding-left: 0;
+}
+/*-headings-------------------------------------------------------------------*/
+h1 {
+    margin: 1em 0 .5em 0;
+    font-size: 250%;
+}
+h2 {
+    margin: 1em 0 .5em 0;
+    font-size: 200%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    border-bottom: black solid 1pt;
+    margin: 20pt 0 20pt 0;
+}
+/*-headers--------------------------------------------------------------------*/
+body > header a {
+    text-decoration: none;
+    font: normal 200% sans-serif;
+}
+body > header div:before {
+    content: " – ";
+}
+body > header div {
+    display: inline;
+    font: italic 200% serif;
+}
+body > header {
+    width: 100%;
+    margin-bottom: .5em;
+}
+/*-footers--------------------------------------------------------------------*/
+body > footer {
+    text-align: center;
+    display: block;
+    border-top: black solid 1pt;
+    padding-top: .5em;
+}
+/*----------------------------------------------------------------------------*/
+section a::after {
+    content: " <" attr(href) ">";
+}
+section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+p, ul, ol {
+    margin: 20pt 0 20pt 0;
+    font-size: 107%;
+    text-align: justify;
+    line-height: 1.7em;
+}
+a {
+    text-decoration: none;
+}
+* {
+    color: black;
+    background: none;
+    margin: 0;
+}
